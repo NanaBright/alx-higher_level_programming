@@ -1,4 +1,4 @@
-i#!/usr/bin/python3
+#!/usr/bin/python3
 import math
 
 
@@ -19,4 +19,3 @@ class MagicClass:
     """ Method that calculates the perimeter of a circumference """
     def circumference(self):
         return (2 * math.pi * self.__radius)
-
