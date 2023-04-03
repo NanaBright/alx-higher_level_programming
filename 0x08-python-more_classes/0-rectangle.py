@@ -2,8 +2,6 @@
 """
 Define an empty class that represents a rectangle 
 """
-
-
 class Rectangle:
-    """Empty Rectangle method"""
+    """ Empty class """
     pass
