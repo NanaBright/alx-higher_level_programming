@@ -1,6 +1,7 @@
 #!/usr/bin/python3
+"""
+Define an empty class that represents a rectangle 
+"""
 class Rectangle:
-    """ Define an empty class called Rectangle that represents a rectangle """
-
+    """indicates that this class doesn't have any attributes or methods yet"""
     pass
-    """ Use the pass statement to indicate that this class doesn't have any attributes or methods yet """
