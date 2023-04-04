@@ -5,13 +5,26 @@
 class Rectangle:
     """A representation of a rectangle"""
     def __init__(self, width=0, height=0):
-        """Initializes a Rectangle instance with width and height"""
+    """ Method that initializes the instance
+    
+    Args:
+            width: width of the rectangle
+            height: height of the rectangle
+    
+
+    """
         self.height = height
         self.width = width
 
     @property
     def width(self):
-        """Returns the width value of the rectangle instance"""
+    """ method that returns the value of the width
+
+    Returns:
+            width of the rectangle
+    
+
+    """
         return self.__width
 
     @width.setter
