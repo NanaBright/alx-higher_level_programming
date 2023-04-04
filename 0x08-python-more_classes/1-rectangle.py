@@ -6,7 +6,6 @@ class Rectangle:
     """A representation of a rectangle"""
     def __init__(self, width=0, height=0):
      """Initializes a Rectangle instance with width and height"""
-
         self.height = height
         self.width = width
 
@@ -18,7 +17,7 @@ class Rectangle:
 
     @width.setter
     def width(self, value):
-        """Sets the width value of the rectangle instance"""
+        """Places the width value of the rectangle instance"""
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
         if value < 0:
@@ -32,10 +31,9 @@ class Rectangle:
 
     @height.setter
     def height(self, value):
-        """Sets the height value of the rectangle instance"""
+        """Places the height value of the rectangle instance"""
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
-
