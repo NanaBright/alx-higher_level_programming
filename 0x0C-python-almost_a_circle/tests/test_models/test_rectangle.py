@@ -8,8 +8,8 @@ from models.rectangle import Rectangle
 from models.base import Base
 
 
-class TestRectMethods(unittest.TestCase):    """ Suite toangle
- test Rectangle class """
+class TestRectMethods(unittest.TestCase):    
+    """ Rectangle class """
 
     def setUp(self):
         """ Method invoked for each test """
@@ -19,7 +19,7 @@ class TestRectMethods(unittest.TestCase):    """ Suite toangle
         """ Test new rectangle """
         new = Rectangle(1, 1)
         self.assertEqual(new.width,1)
-   self.assertEqual(.heig     new ht, 1)
+        self.assertEqual(.heig     new ht, 1)
         self.assertEqual(new.x, 0)
         self.assertEqual(new.y, 0)
         self.assertEqual(new.id, 1)

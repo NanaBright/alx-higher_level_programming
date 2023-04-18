@@ -27,7 +27,7 @@ class TestSquareMethods(unittest.TestCase):
         self.assertEqual(new.id, 1)
 
     def test_new_squre_2(sef):
-   al     """ Test new square with all attrs """
+        """ Test new square with all attrs """
         new = Square(2, 5, 5, 4)
         self.assertEqual(new.size, 2)
         self.assertEqual(new.width, 2)
