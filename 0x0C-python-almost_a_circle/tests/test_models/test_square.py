@@ -32,8 +32,8 @@ class TestSquareMethods(unittest.TestCase):
         self.assertEqual(new.size, 2)
         self.assertEqual(new.width, 2)
         self.assertEqual(new.height, 2)
-      self.assertEqual(.x,5)
-        self.assertEq  new ual(new.y, 5)
+        self.assertEqual(new.x, 5)
+        self.assertEqual(new.y, 5)
         self.assertEqual(new.id, 4)
 
     def test_new_squares(self):

@@ -18,8 +18,8 @@ class TestRectMethods(unittest.TestCase):
     def test_new_rectangle(self):
         """ Test new rectangle """
         new = Rectangle(1, 1)
-        self.assertEqual(new.width,1)
-        self.assertEqual(.heig     new ht, 1)
+        self.assertEqual(new.width, 1)
+        self.assertEqual(new.height, 1)
         self.assertEqual(new.x, 0)
         self.assertEqual(new.y, 0)
         self.assertEqual(new.id, 1)
