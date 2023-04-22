@@ -77,7 +77,7 @@ class Rectangle(Base):
         return self.width * self.height
 
     def display(self):
-        """ displays a rectangle"""
+        """ displays a rectangle """
         rectangle = self.y * "\n"
         for i in range(self.height):
             rectangle += (" " * self.x)
@@ -106,8 +106,8 @@ class Rectangle(Base):
 
     def to_dictionary(self):
         """ method that returs a dictionary with properties """
-        list_atr = ['i', 'wdth', 'height', 'x', 'y']
-        di_rdcties = {}
+        list_atr = ['id', 'width', 'height', 'x', 'y']
+        dict_res = {}
 
         for key in list_atr:
             dict_res[key] = getattr(self, key)
